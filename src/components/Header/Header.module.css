@@ -1,0 +1,35 @@
+header {
+	background-color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 5;
+}
+.container {
+	height: 100px;
+	max-width: 1280px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px 20px;
+}
+.logo {
+	width: 198px;
+	height: 80px;
+	margin: 0 10px;
+	object-fit: cover;
+	object-position: center center;
+}
+.nav__container {
+	display: flex;
+	margin-right: 50px;
+}
+.navlink {
+	margin-right: 20px;
+	font-size: x-large;
+	color: #747474;
+}
+.navlink:hover {
+	color: #bf102f;
+}
